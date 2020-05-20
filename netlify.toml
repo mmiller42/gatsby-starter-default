@@ -1,1 +1,2 @@
-environment = { TEST = "foo" }
+[build]
+  environment = { GATSBY_TEST = "foo" }
