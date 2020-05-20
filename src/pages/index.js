@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-console.log('process.env.TEST:', process.env.TEST)
+console.log('process.env.GATSBY_TEST:', process.env.GATSBY_TEST)
 
 const IndexPage = () => (
   <Layout>
